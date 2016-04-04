@@ -4,6 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -178,6 +179,150 @@ header {
 	line-height: 22px;
 } 
 
+.slider {
+	text-align: center;
+	padding: 50px 0 49px;
+}
+
+.small-container {
+	width: 760px;
+	margin: 0 auto;
+}
+.slider h2 {
+	color:  #8a8888;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding-bottom: 28px;
+}
+
+.slider p {
+	color:  #8a8888;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.slider h3 {
+	color:  #8a8888;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding-bottom: 26px;
+}
+
+.slider ul {
+	font-size: 0;
+	padding: 46px 0 49px;
+}
+
 .slider ul li {
 	display: inline-block;
+	position: relative;
+	margin-right: 7px;
 }
+
+.slider ul li  {
+	opacity: 0.5;
+}
+
+.slider ul li:last-child {
+	margin-right: 0;
+}
+
+.slider li a {
+	background: #2ecc71;
+	border-radius: 50%;
+	padding: 25px 32px;
+	position: absolute;
+	top: 19%;
+	left: 34%;
+	opacity: 0;
+}
+
+.slider li:hover, .slider li:hover a {
+	opacity: 1;
+}
+
+.slider .left {
+	float: left;
+	background: url('../images/arrow-left.png') no-repeat;
+	background-position: left center;
+	width: 60px;
+    height: 100px;
+}
+
+.slider .right {
+	float: right;
+	background: url('../images/arrow-right.png') no-repeat;
+	background-position: right center;
+	width: 60px;
+    height: 100px;	
+}
+
+.slider .left:hover {
+	background: url('../images/arrow-greenL.png') no-repeat;
+	background-position: left center;
+}
+
+.slider .right:hover {
+	background: url('../images/arrow-greenR.png') no-repeat;
+	background-position: right center;
+}
+
+.black-block {
+	background: #322f2f;
+	padding: 53px 0 47px;
+}
+
+.black-block h2 {
+	color: #efefef;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 22px;
+	display: inline-block;
+	padding-right: 328px;
+}
+
+footer {
+	background: #efefef;
+}
+
+footer p, footer ul li {
+	display: inline-block;
+	padding: 33px 0 25px;
+}
+
+ footer p, footer li a {
+	color:  #a5a5a5;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18px;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+footer p {
+	float: left;
+}
+
+footer ul li {
+	list-style: none;
+	float: right;
+}
+
+footer ul:after {
+	content: "";
+	clear: both;
+}
+
+footer li a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+
