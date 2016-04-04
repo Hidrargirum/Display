@@ -263,12 +263,12 @@ header {
 }
 
 .slider .left:hover {
-	background: url('../images/arrow-greenL.png') no-repeat;
+	background: url('../images/greenL.png') no-repeat;
 	background-position: left center;
 }
 
 .slider .right:hover {
-	background: url('../images/arrow-greenR.png') no-repeat;
+	background: url('../images/greenR.png') no-repeat;
 	background-position: right center;
 }
 
