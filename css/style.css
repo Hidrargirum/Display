@@ -275,6 +275,7 @@ header {
 .black-block {
 	background: #322f2f;
 	padding: 53px 0 47px;
+	text-align: right;
 }
 
 .black-block h2 {
@@ -282,8 +283,8 @@ header {
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 22px;
-	display: inline-block;
-	padding-right: 328px;
+	float: left;
+	
 }
 
 footer {
